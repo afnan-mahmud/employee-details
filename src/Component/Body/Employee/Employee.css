@@ -1,0 +1,50 @@
+.card{
+    display: flex;
+    float: left;
+    width: 280px;
+    height: 320px;
+    margin: 8px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+.card:hover{
+    transition: 0.3s;
+    box-shadow: 10px 10px 10px lightgray;
+    cursor: pointer;
+}
+.card-body{
+    padding: 10px;
+}
+.image-style{
+    height: 70px;
+    width: 70px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50%;
+}
+.employee-name{
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.employee-name:hover{
+    color: darkgoldenrod;
+    transition: 0.3s;
+}
+.get-salary-btn{
+    font-size: 15px;
+    border: none;
+    background-color: #3E007C;
+    color: aliceblue;
+    height: 35px;
+    padding: 5px;
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.get-salary-btn:hover{
+    background-color: darkgoldenrod;
+    transition: 0.3s;
+}
